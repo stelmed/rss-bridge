@@ -26,8 +26,8 @@ jobs:
       - name: Generate RSS feed
         run: |
           mkdir -p output
-          echo "Fetching content from https://www.tanea.gr/allnews"
-          curl -L -o output/rss-feed.xml https://www.tanea.gr/allnews
+          echo "Fetching content from https://x.com/i/lists/869456273569234944"
+          curl -L -o output/rss-feed.xml https://x.com/i/lists/869456273569234944
           echo "RSS feed generated and saved to output/rss-feed.xml"
           ls -l output
 

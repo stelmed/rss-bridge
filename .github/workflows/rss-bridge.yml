@@ -43,4 +43,3 @@ jobs:
             git push
           else
             echo "RSS feed file does not exist, skipping commit"
-

@@ -38,3 +38,4 @@ jobs:
           git add output/rss-feed.xml
           git commit -m 'Generate RSS feed'
           git push
+

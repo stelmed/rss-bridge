@@ -28,7 +28,7 @@ jobs:
           mkdir -p output
           echo "Fetching content from https://x.com/i/lists/869456273569234944"
           curl -o output/rss-feed.xml https://x.com/i/lists/869456273569234944
-          echo "RSS feed generated and saved to https://x.com/i/lists/869456273569234944"
+          echo "RSS feed generated and saved to output/rss-feed.xml"
           ls -l output
 
       - name: Commit and push RSS feed

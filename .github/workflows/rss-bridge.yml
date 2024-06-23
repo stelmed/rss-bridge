@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # Update to use Node.js 20
+        uses: actions/checkout@v4
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
@@ -26,9 +26,9 @@ jobs:
       - name: Generate RSS feed
         run: |
           mkdir -p output
-          echo "Running RSS-Bridge to generate RSS feed"
-          php index.php action=display bridge=TwitterList format=Mrss u=x l=869456273569234944 > output/rss-feed.xml
-          echo "RSS feed generated and saved to output/rss-feed.xml"
+          echo "Fetching content from https://x.com/i/lists/869456273569234944"
+          curl -o output/rss-feed.xml https://x.com/i/lists/869456273569234944
+          echo "RSS feed generated and saved to https://x.com/i/lists/869456273569234944"
           ls -l output
 
       - name: Commit and push RSS feed

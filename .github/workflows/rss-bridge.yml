@@ -38,16 +38,3 @@ jobs:
           git add output/rss-feed.xml
           git commit -m 'Generate RSS feed'
           git push
-
-      - name: Copy RSS feed to public repository
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git clone https://github.com/stelmed/twitter_feedly_integration.git
-          cd twitter_feedly_integration
-          cp ../output/rss-feed.xml .
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add rss-feed.xml
-          git commit -m 'Update RSS feed'
-          git push https://$GH_TOKEN@github.com/stelmed/twitter_feedly_integration.git

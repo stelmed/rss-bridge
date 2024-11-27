@@ -2,7 +2,7 @@
     <!DOCTYPE html>
     <head>
       <title>x.com</title>
-      <meta http-equiv="refresh" content="0; url = https://twitter.com/x/migrate?tok=7b2265223a222f692f6c697374732f383639343536323733353639323334393434222c2274223a313733323639313335337deda45f2287dfb5f1b198cbccc46d20dc" />
+      <meta http-equiv="refresh" content="0; url = https://twitter.com/x/migrate?tok=7b2265223a222f692f6c697374732f383639343536323733353639323334393434222c2274223a313733323639353133327d904d354057614570d1a9ea75b7905870" />
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
 
@@ -24,14 +24,14 @@
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-title" content="Twitter" />
       <meta name="apple-mobile-web-app-status-bar-style" content="white" />
-      <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Twitter"/>
+      <link rel="search" type="application/opensearchdescription+xml" href="/os-x.xml" title="X"/>
       <link rel="apple-touch-icon" sizes="192x192" href="https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png" />
       <meta name="twitter-site-verification" content="AUVDWo1JpbjI22xjTe5JOvTAWuW9bK41CpxYxCeCjH97mEVp7rtiHcvdOaUksJrG" />
       <link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
       <link rel="mask-icon" sizes="any" href="https://abs.twimg.com/responsive-web/client-web/icon-svg.ea5ff4aa.svg" color="#1D9BF0" />
       <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico" />
       <meta name="theme-color" content="#000000" />
-      <script type="text/javascript" charset="utf-8" nonce="MTE1YTQ3YmQtMGE4Yi00MDIzLWIzMDgtODQzNmY3ZTNlNDg0">document.location = "https://twitter.com/x/migrate?tok=7b2265223a222f692f6c697374732f383639343536323733353639323334393434222c2274223a313733323639313335337deda45f2287dfb5f1b198cbccc46d20dc"</script>
+      <script type="text/javascript" charset="utf-8" nonce="NGM1ZjNkNjItNDJjOC00ZTIxLWFkYjAtYjZmNWU0OWE1NDlm">document.location = "https://twitter.com/x/migrate?tok=7b2265223a222f692f6c697374732f383639343536323733353639323334393434222c2274223a313733323639353133327d904d354057614570d1a9ea75b7905870"</script>
       </head>
     <body style="background: #000">
 
